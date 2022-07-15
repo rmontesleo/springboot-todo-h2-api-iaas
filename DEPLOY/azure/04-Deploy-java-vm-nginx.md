@@ -29,10 +29,10 @@ az vm image list --all --offer Java --output table
 ```bash
 
 ## see all sizes of the virtual machines
-az vm list-sizes --location east-us2 --output table
+az vm list-sizes --location eastus2 --output table
 
 ## use the less command
-az vm list-sizes --location east-us2 --output table | less
+az vm list-sizes --location eastus2 --output table | less
 ```
 
 ### Create the virtual machine
